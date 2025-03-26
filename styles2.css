@@ -1,0 +1,50 @@
+/* Form container styling */
+form {
+    background-color: white; /* Light blue background */
+    max-width: 300px;       /* Container maximum width */
+    margin: 20px auto;      /* Centering the form */
+    padding: 20px;          /* Padding around the form contents */
+    border-radius: 10px;    /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Label styling */
+form label {
+    font-weight: bold;              /* Bold text */
+    color: #2c3e50;                 /* Dark blue color */
+    margin-bottom: 5px;            /* Space below the label */
+    display: block;                 /* Block display */
+}
+
+/* Input and textarea styling */
+form input, form textarea {
+    width: 100%;                   /* Full width of the parent container */
+    padding: 10px;                /* Padding inside the input/textarea */
+    margin-bottom: 15px;          /* Space below the input/textarea */
+    border: 1px solid #3498db;    /* Blue border */
+    border-radius: 4px;           /* Rounded corners */
+    background-color: #eaf6ff;    /* Light blue input background */
+}
+
+/* Submit button styling */
+form button {
+    background-color: #3498db;    /* Blue background for button */
+    color: #ffffff;                /* White text */
+    padding: 10px 15px;           /* Padding around the button text */
+    border: none;                  /* No border */
+    border-radius: 5px;           /* Rounded corners */
+    cursor: pointer;               /* Pointer cursor on hover */
+    font-size: 16px;               /* Font size */
+    font-weight: bold;             /* Bold text */
+}
+
+form button:hover {
+    background-color: #1d6fa5;     /* Darker blue on hover */
+}
+
+/* Add some focus effects */
+form input:focus, form textarea:focus {
+    outline: none;                 /* No outline when focused */
+    border-color: #1d6fa5;        /* Darker blue border on focus */
+    background-color: #ffffff;    /* White background on focus */
+}
