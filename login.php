@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($result->num_rows > 0) {
         $_SESSION['username'] = $username; // Store username in session
-        header("Location: index.html"); // Redirect to home page
+        header("Location: home.html"); // Redirect to home page
         exit();
     } else {
         echo "Invalid username or password";
